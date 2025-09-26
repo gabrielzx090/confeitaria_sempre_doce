@@ -53,3 +53,46 @@ nav ul li a:hover {
     object-fit: cover;
     height: 300px;
 }
+
+.container h2 {
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.container p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.sobre h2 {
+    font-family: "Oswald", sans-serif !important;
+}
+
+.menu-cardapio-itens{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.menu-cardapio-item{
+    border: 1px solid #f87c00;
+    border-radius: 5px;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.menu-cardapio h2 {
+    font-family: "Oswald", sans-serif !important;
+    text-align: center;
+    font-size: 45px;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
