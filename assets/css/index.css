@@ -16,10 +16,22 @@ body {
 }
 
 header {
-    background-color: #9e13c8;
-    color: #fff;
+    display: flex;
+    background-color:#fef4e2;
+    color: #000000;
     padding: 20px;
 }
+
+.logo{
+    width: 0;
+}
+
+.logo img{
+
+    width: 150px;
+    margin-left: 20px;
+}
+
 
 header h1 {
     text-align: center;
@@ -38,7 +50,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(6, 3, 3);
     text-decoration: none;
 }
 
